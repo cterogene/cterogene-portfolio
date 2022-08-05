@@ -3,6 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+#Estimated working time
+3 hour and 30 minutes.
 
 In the project directory, you can run:
 
