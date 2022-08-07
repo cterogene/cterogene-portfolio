@@ -9,18 +9,20 @@ const Navbar = () => (
             <img src={logo} alt="logo"/>
         </Link>
         <ul className='nav-menu'>
-            <li>
-                <Link to="/"> Home </Link>
-            </li>
-            <li>
-                <Link to="/"> Project </Link>
-            </li>
-            <li>
-                <Link to="/"> About </Link>
-            </li>
-            <li>
-                <Link to="/"> Contact </Link>
-            </li>
+    
+                <li>
+                    <Link to="/"> Home </Link>
+                </li>
+                <li>
+                    <Link to="/project"> Project </Link>
+                </li>
+                <li>
+                    <Link to="/about"> About </Link>
+                </li>
+                <li>
+                    <Link to="/contact"> Contact </Link>
+                </li>
+            
         </ul>
 
 
@@ -28,7 +30,4 @@ const Navbar = () => (
     </div>
 
 )
-
-
-
 export default Navbar 
