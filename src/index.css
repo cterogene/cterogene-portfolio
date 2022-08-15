@@ -6,3 +6,38 @@
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
+
+body{
+  background: white;
+
+}
+h1,h4,p,a{
+  color: black;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+li{
+  color: black;
+}
+.btn{
+  padding: 12 px 32 px;
+  font-size: 1 rem;
+  text-transform: uppercase;
+  background: #9966CC;
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+.btn-light{
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover{
+  background:  #fff;
+  color:#9966CC;
+  transition: 0.3s;
+}
