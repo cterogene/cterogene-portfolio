@@ -1,5 +1,5 @@
 import './Hero.scss'
-import Herobg from "../../assets/images/image-1.jpg";
+import Herobg from "../../assets/images/image-2.jpg";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
             </div>
             <div className="content">
                 <p> HI,  WELCOME TO MY PORTFOLIO</p>
-                <h1> I'm a Software Developer  </h1>
+                <h1> I'm a Software Developer based in Haiti </h1>
                 <div>
                     <Link to="/project" className="btn"> Project</Link>
                     <Link to="/contact" className="btn btn-light">Contact</Link>

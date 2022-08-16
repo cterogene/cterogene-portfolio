@@ -6,6 +6,11 @@
     
    
 }
+.li{
+    color: #fff;
+}
+
+
 
 .nav-menu {
     display: flex;
@@ -34,11 +39,22 @@
         top: 20%;
         left: -100%;
         z-index: -3;
-        transition: 0.5s
+        transition: 0.5s;
+        
+        
     }
 
-    .nav-menu.active{
+    .nav-menu .active{
         left: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        opacity: 0.9;
+        
     }
 
     .nav-menu li{
@@ -50,4 +66,5 @@
     .hamburger{
         display: initial;
     }
+    
 }

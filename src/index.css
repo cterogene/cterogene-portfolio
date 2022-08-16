@@ -12,24 +12,29 @@ body{
 
 }
 h1,h4,p,a{
-  color: black;
+  color:#000;
   text-decoration: none;
+}
+
+h1,p{
+  color: #fff;
 }
 ul {
   list-style-type: none;
 }
-li{
-  color: black;
+ul li{
+  color: #fff;
 }
 .btn{
-  padding: 12 px 32 px;
-  font-size: 1 rem;
+  padding: 10px 60px;
+  font-size: 2 rem;
   text-transform: uppercase;
   background: #9966CC;
-  color: #222;
-  border: 1px solid #fff;
-  font-weight: 800;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 900;
   cursor: pointer;
+  margin: 5px;
 }
 .btn-light{
   background: transparent;
