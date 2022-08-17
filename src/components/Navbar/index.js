@@ -1,7 +1,7 @@
 import './index.scss'
 import {Link} from 'react-router-dom'
 import {useState} from "react";
-import Logo from "../../assets/images/claudio-logo.png"
+
 import { FaBars, FaTimes} from "react-icons/fa";
 import { faPersonWalkingDashedLineArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
         <Link to="/">
-            <img src={Logo} alt="logo" />
+            <h1 className='name'> CLAUDIO TEROGENE</h1>
           
         </Link>
         <ul className={click ? "nav-menu active" :
@@ -45,8 +45,8 @@ const Navbar = () => {
             </li>
         </ul>
         <div className='hamburger' onClick={handleClick}>
-            {click ? (<FaTimes size={20} style={{color: 'black'}} />
-            ) : (<FaBars size={20} style={{color: 'black'}} />)}
+            {click ? (<FaTimes size={23} style={{color: '#fff'}} />
+            ) : (<FaBars size={23} style={{color: '#fff'}} />)}
             
             
         </div>

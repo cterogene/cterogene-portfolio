@@ -30,9 +30,13 @@
 .hero .content{
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 60%;
+    top: 50%;
     left: 50%;
     text-align: center;
+}
+.type{
+    color: #fff;
+    font-weight: 300;
 }
 .hero .content h1{
    font-size: 3rem;
@@ -48,12 +52,12 @@
 
 @media screen and (max-width: 640px){
     .hero .content h1{
-        font-size: 3rem;
+        font-size: 2.8rem;
         
          
      }
      .hero .content p{
-         font-size: 1.4rem; 
+         font-size: 1.8rem; 
          
      }
      .hero .btn{

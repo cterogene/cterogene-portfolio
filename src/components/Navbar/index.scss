@@ -10,8 +10,11 @@
     
    
 }
+.name{
+    font-size: 1.5rem;
+}
 .header-bg{
-    background-color: black;
+    background-color: #554994;
     transition: 0.5s;
     
 }
@@ -34,6 +37,7 @@
 }
 .hamburger{
     display: none;
+    color: #554994;
 }
 
 @media screen and (max-width: 1040px){
@@ -49,9 +53,8 @@
         left: -100%;
         z-index: -3;
         
-        
-        
     }
+
 
     .nav-menu.active{
         left: 0;
@@ -69,6 +72,7 @@
     }
     .hamburger{
         display: initial;
+        color: #554994;
     }
     
 }
