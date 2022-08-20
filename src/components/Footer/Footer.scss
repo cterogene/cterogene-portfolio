@@ -1,6 +1,7 @@
 .footer{
     width: 100%;
-    padding: 6rem  0rem;
+    padding-bottom: 1.5rem;
+    padding-top: 5rem;
     background-color:#000;
 }
 .footer-container{
@@ -44,11 +45,15 @@ h4{
 p{
     font-size: 1.2rem ;
 }
-.copy{
-    position: relative;
+.copy p {
+    background-color:'#fff';
+    
 }
 @media screen and (max-width: 640px) {
     .footer-container{
         grid-template-columns:  1fr;
+    }
+    .footer{
+        padding-bottom: 1.5rem;
     }
 }

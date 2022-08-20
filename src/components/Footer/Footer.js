@@ -37,23 +37,24 @@ const Footer = () => {
                         I have experiences working with MySql Server, React, Android Studio(Java) and C#.
                     </p>
                     <div className="social">
-                        <FaGithub size={30} style = {{ color:
-                                "#554994", marginRight: "2rem"}}/>
-                        <FaLinkedin size={30} style = {{ color:
-                                "#554994", marginRight: "2rem"}}/>
-                         <FaFacebook size={30} style = {{ color:
-                            "#554994", marginRight: "2rem"}}/>
+                        < a href="https://github.com/TClaudio" target= "_blank" ><FaGithub size={30} style = {{ color:
+                                "#554994", marginRight: "2rem"}}/> </a>
+                         <a href = "https://www.linkedin.com/in/cterogene/" target ="_blank"><FaLinkedin size={30} style = {{ color:
+                                "#554994", marginRight: "2rem"}}/> </a>
+                        <a href="https://web.facebook.com/terogene.claudio" target="_blank" > <FaFacebook size={30} style = {{ color:
+                            "#554994", marginRight: "2rem"}}/> </a>
                     </div>
 
                     
                     
                 </div>
 
-                <div className="copy"> 
-                        <p> Made with ♥ by cterogene from Haiti </p>
-                    </div>
+                
                 
             </div>
+            <div className="copy"> 
+                        <p style= {{textAlign:'center', marginTop:'1rem'}}> Made with ❤ by cterogene from Haiti</p>
+                    </div>
         </div>
 
     );

@@ -11,8 +11,8 @@ const Navbar = () => {
     const handleClick = () => setClick(!click);
 
     const [color, setColor] = useState(false);
-    const changeColor=()=>{
-        if (window.scrollY >=1){
+    const changeColor= () => {
+        if (window.scrollY >= 100){
             setColor(true);
         }
         else{
@@ -20,7 +20,8 @@ const Navbar = () => {
         }
 
     };
-    window.addEventListener("scrool", changeColor);
+
+    window.addEventListener("scroll", changeColor);
 
 
   return (
@@ -47,7 +48,7 @@ const Navbar = () => {
         <div className='hamburger' onClick={handleClick}>
             {click ? (<FaTimes size={23} style={{color: '#fff'}} />
             ) : (<FaBars size={23} style={{color: '#fff'}} />)}
-            
+             
             
         </div>
 
