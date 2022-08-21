@@ -1,6 +1,14 @@
 import react from 'react';
-const Contact = ()=>{
-    return <h1> Hiii Contact </h1>
+import Navbar from '../components/Navbar';
 
-}
+import Footer from '../components/Footer/Footer';
+const Contact = ()=>{
+    return (
+        <div> 
+            <Navbar />
+            <Footer />
+        </div>
+    )
+
+};
 export default Contact;
