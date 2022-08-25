@@ -3,8 +3,8 @@ const SecondHero = ()=>{
     return (
         <div className='hero-img'>
             <div className='heading'>
-                <h1>PROJECTS</h1>
-                <p>My professional work and University project </p>
+                <h1> GET IN TOUCH</h1>
+                <p>You can leave a message here for me and i'll reply to you within 48 hours.  </p>
             </div>
         </div>
 
