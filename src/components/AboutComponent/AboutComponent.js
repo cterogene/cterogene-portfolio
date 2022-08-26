@@ -10,7 +10,7 @@ const AboutComponent = () => {
                     <img className='about-img' src={claudio} alt='claudio-about' />
                 </div>
                 <div className='right'>
-                    <h1>About Me</h1>
+                    <h1>ABOUT ME</h1>
                     
                     <p>I'm a passionate about technologies. I have a bachelor degree in Computer Science at Espoir University. (2017-2022)</p>
                     <p>My tech jouney started in 2017. From this date i have been using Java, C#, Html and Css.</p>

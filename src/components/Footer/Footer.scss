@@ -11,6 +11,27 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
 }
+.footer .footer-container .right p{
+    display: flex;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.footer .footer-container .right h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.footer .footer-container .left .location p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.footer .footer-container .left .location .phone h4{
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+}
 .left{ 
     height: 100%;
     max-width: 100%;

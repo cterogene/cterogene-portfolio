@@ -38,20 +38,30 @@
     justify-content: center;
     
 }
- .right p{
+.aboutSection .aboutSection-container .right  p{
     color: #554994;
-    padding: 1rem 1rem;
+    padding:1rem;
     position: relative;
+    font-weight: 350;
+    font-size: 1.4rem;
+    margin: auto;
     max-width: 100%;
     justify-content: center;
     display: flex;
-    
-   
+    text-align: center;
 }
-.right h1{
+.aboutSection .aboutSection-container .right  .btn{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+ .aboutSection .aboutSection-container .right h1{
     align-items: center;
-    font-weight: 5rem;
+    font-size: 2rem;
     padding: 1rem;
+    color: #554994;
+    display: flex;
+    justify-content: center;
     
     
     
