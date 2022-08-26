@@ -37,7 +37,7 @@ const Footer = () => {
                         I have experiences working with MySql Server, React, Android Studio(Java) and C#.
                     </p>
                     <div className="social">
-                        < a href="https://github.com/TClaudio" target= "_blank" ><FaGithub size={30} style = {{ color:
+                        < a href="https://github.com/cterogene" target= "_blank" ><FaGithub size={30} style = {{ color:
                                 "#554994", marginRight: "2rem"}}/> </a>
                          <a href = "https://www.linkedin.com/in/cterogene/" target ="_blank"><FaLinkedin size={30} style = {{ color:
                                 "#554994", marginRight: "2rem"}}/> </a>
