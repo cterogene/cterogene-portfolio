@@ -12,9 +12,10 @@ const AboutComponent = () => {
                 <div className='right'>
                     <h1>About Me</h1>
                     
-                    <p>I'm a passinate about technologies. I have a bachelor degree in Computer Science at Espoir University. (2017-2022)</p>
+                    <p>I'm a passionate about technologies. I have a bachelor degree in Computer Science at Espoir University. (2017-2022)</p>
                     <p>My tech jouney started in 2017. From this date i have been using Java, C#, Html and Css.</p>
                     <p>I'm also a CodePath alumni. I have  1+ year experience working with Android Studio.</p>
+                    <p>I have 2+ month working with the React framework, I'm learning the core skills to create beautiful front-end design.</p>
                     
                     <div>
                     <Link to="/about" className="btn">See More</Link>
