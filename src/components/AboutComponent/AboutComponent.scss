@@ -16,7 +16,7 @@
     
 .left{ 
     height: 100%;
-    max-width: 70%;
+    max-width: 100%;
     
     margin: auto;
     flex-direction: column;
@@ -27,6 +27,7 @@
 .left img {
     border-radius: 200px;
     position: relative;
+    
     max-width: 100%;
 }
 .right {
