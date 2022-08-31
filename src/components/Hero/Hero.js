@@ -14,6 +14,7 @@ const Hero = () => {
                 <p> </p>
                 
                 <div className='type'>
+                    
                     <Typewriter
                         options={{
                             strings: ['HI,  WELCOME TO MY PORTFOLIO'],
@@ -21,6 +22,7 @@ const Hero = () => {
                             loop: true,
                         }}
                     />
+                    
                 </div>
                 <h1 > I'm a Software Developer based in Haiti </h1>
                 <div>

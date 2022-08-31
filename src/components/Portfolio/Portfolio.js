@@ -1,6 +1,7 @@
 import './Portfolio.scss'
 import React from 'react'
 import Card from '../Portfolio/Card'
+import Portfolio_data from './Portfolio_data'
 
 const Portfolio = () =>{
     return(
@@ -13,8 +14,11 @@ const Portfolio = () =>{
                     </div>
 
                     <div className='content grid'>
+                        {Portfolio_data.map((value, index) => {
+                             return <Card key ={index} category={value.category} title={value.title} image={value.image} />
+                        })}
 
-                        <Card />
+                        
                     </div>
                 </div>
             
