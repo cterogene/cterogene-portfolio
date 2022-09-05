@@ -8,12 +8,14 @@ import { Link } from "react-router-dom";
 
 const Portfolio = () => {
     return ( 
-        <><div className='project'>
-            <h1>My Projects</h1>
+        <>
+         <div className='project'>
+             <h1>My Projects</h1>
+            
         </div>
         <div className='works'>
                 <div className="work__section">
-
+        
                     <div className="cards">
                         <img src={obensonWork} alt="" />
                         <Link to='/project'><button>See More</button></Link>
