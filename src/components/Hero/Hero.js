@@ -27,7 +27,7 @@ const Hero = () => {
                 <h1 > I'm a Software Developer based in Haiti </h1>
                 <div>
                     <Link to="/project" className="btn"> Project</Link>
-                    <Link to="/contact" className="btn btn-light">Contact</Link>
+                    <Link to="/contact" className="btn btn-light">Hire Me</Link>
                 </div>
             </div>
             

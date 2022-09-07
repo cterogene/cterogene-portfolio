@@ -1,7 +1,5 @@
 import './Portfolio.scss'
 import React from 'react'
-import Card from '../Portfolio/Card'
-import Portfolio_data from './Portfolio_data'
 import obensonWork from "../../assets/images/obenson-portfolio.jpg"
 import test from "../../assets/images/test.jpg"
 import { Link } from "react-router-dom";

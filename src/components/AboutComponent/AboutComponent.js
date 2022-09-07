@@ -1,6 +1,6 @@
 import react from 'react';
 import './AboutComponent.scss'
-import claudio from "../../assets/images/claudio-img.jpg";
+import claudio from "../../assets/images/claudio-intro1.jpg";
 import { Link } from "react-router-dom";
 const AboutComponent = () => {
     return (
@@ -13,7 +13,7 @@ const AboutComponent = () => {
                     <h1>ABOUT ME</h1>
                     <ul>
                         <li><p>I'm a passionate about technologies. I have a bachelor degree in Computer Science at Espoir University. (2017-2022)</p></li>
-                        <p>My tech jouney started in 2017. From this date i have been using Java, C#, Html and Css.</p>
+                        <p>My tech jouney started in 2017. From this date i have been using Java, C#, Python, Html and Css.</p>
                         <p>I'm also a CodePath alumni. I have  1+ year experience working with Android Studio.</p>
                         <p>I have 3+ month working with the React framework, I'm learning the core skills to create beautiful front-end design.</p>
                     </ul>
