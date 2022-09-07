@@ -4,6 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 # Estimated working time
-# 19 hour and 40 minutes. 
+ 19 hour and 40 minutes. 3h 36mn
 project videos link: https://www.youtube.com/watch?v=_tUNvxA9UV4
 

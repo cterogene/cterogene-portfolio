@@ -5,7 +5,7 @@ const AboutHero = ()=>{
     return (
         <div className='hero-img2'>
             <div className='heading'>
-                <h1> My Resume </h1>
+                <h1> MY RESUME </h1>
                 <div>
                     <Link to="" className="btn"> Download CV</Link>
                     <Link to="/contact" className="btn btn-light">Hire Me</Link>
