@@ -3,7 +3,6 @@ import "./Resume.scss"
 import ResumeApi from "./Resume_data"
 import Card from "./Card"
 
-
 const Resume = () => {
   return (
     <>

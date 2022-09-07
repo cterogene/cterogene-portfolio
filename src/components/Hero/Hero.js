@@ -17,7 +17,7 @@ const Hero = () => {
                     
                     <Typewriter
                         options={{
-                            strings: ['HI,  WELCOME TO MY PORTFOLIO'],
+                            strings: ['HI THERE ! ', 'WELCOME TO MY PORTFOLIO'],
                             autoStart: true,
                             loop: true,
                         }}

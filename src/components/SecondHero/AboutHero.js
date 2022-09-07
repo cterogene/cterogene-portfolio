@@ -7,8 +7,8 @@ const AboutHero = ()=>{
             <div className='heading'>
                 <h1> My Resume </h1>
                 <div>
-                    <Link to="/contact" className="btn"> Hire Me</Link>
-                    
+                    <Link to="" className="btn"> Download CV</Link>
+                    <Link to="/contact" className="btn btn-light">Hire Me</Link>
                 </div>
             </div>
         </div>
