@@ -1,7 +1,7 @@
 import photo1 from '../../assets/images/obenson-portfolio.jpg'
 const Portfolio_data = [
     {
-      id: 1,
+      index: 1,
       category: "experience",
       year: "2022",
       title: "Android Development Course assistant from CodePath",
@@ -9,7 +9,7 @@ const Portfolio_data = [
       rate: "4/5",
       },
       {
-        id: 2,
+        indexd: 2,
         category: "experience",
         year: "2022",
         title: "Call Center Agent",
@@ -17,7 +17,7 @@ const Portfolio_data = [
         rate: "3/5",
       },
       {
-        id: 3,
+        index: 3,
         category: "education",
         year: "University of Studies (1997 - 2001) ",
         title: "Bachelor in Computer Science",
