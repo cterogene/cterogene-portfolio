@@ -2,6 +2,7 @@ import react from 'react';
 import './AboutComponent.scss'
 import claudio from "../../assets/images/claudio-intro1.jpg";
 import { Link } from "react-router-dom";
+import pdf from '../../assets/resume/Claudio-Terogene-Resume.pdf';
 const AboutComponent = () => {
     return (
         <div className='aboutSection'>
@@ -19,6 +20,7 @@ const AboutComponent = () => {
                     </ul>
                     <div>
                     <Link to="/about" className="btn">See More</Link>
+                    <a href={pdf} download className="btn"> Download CV </a>
                 </div>
                     
                 </div>
