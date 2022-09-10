@@ -1,14 +1,21 @@
 import './ProjectHero.scss'
- const ProjectHero = () =>{
+import { Link } from "react-router-dom";
+import pdf from '../../assets/resume/Claudio-Terogene-Resume.pdf';
+
+const AboutHero = ()=>{
+
     return (
-        <div className='hero-img1'>
+        <div className='hero-img4'>
             <div className='heading'>
-                <h1> Take a look at my most recent project</h1>
-                <p>Those are the one that I have worked for third parties and some are my personal project. </p>
+                <h1> MY Project </h1>
+                <div>
+                    <a href={pdf} download className="btn"> Download CV </a>
+                    <Link to="/contact" className="btn btn-light">Contact Me</Link>
+                </div>
             </div>
         </div>
 
     );
 
- }
- export default ProjectHero
+};
+export default AboutHero;
