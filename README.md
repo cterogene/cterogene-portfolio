@@ -1,9 +1,28 @@
-# Claudio Terogene Personal Portfolio
+# Claudio Terogene Resume
+This is my online Resume made with React and Sass
+### User Stories
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+- [x] Home Page presentation
+- [x] See my Project
+- [x] All the info about me
+- [x] Contact me by sending message in a contact form
+- [x] Download my Resume from the several pages.
+
+### App Walkthough GIF
+
+
+<img src="" width=250><br>
 
 # Estimated working time
- 21 hour and 40 minutes.  4h 14mn 5h 43
-project videos link: https://www.youtube.com/watch?v=_tUNvxA9UV4
+ 22 hour and 50 minutes.  
+
+### Notes
+
+Building a Portfolio is a challenge. Ready to add Skills and Challenges for people around the world.
+
+
+
+
 
