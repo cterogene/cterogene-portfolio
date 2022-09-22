@@ -57,6 +57,7 @@
 }
 .social{
     margin-top: 1rem;
+    text-align: center;
 }
 h4{
     font-size: 1.2rem;
@@ -76,5 +77,10 @@ p{
     }
     .footer{
         padding-bottom: 1.5rem;
+    }
+    .footer .footer-container .right .social{
+        text-align: center;
+        justify-content: center;
+
     }
 }

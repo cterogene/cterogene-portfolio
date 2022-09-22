@@ -42,8 +42,9 @@
 }
 .hero .content h1{
    font-size: 3rem;
-   padding: 0.6rem 0 1.5rem;
+   padding: 1rem 0 1.5rem;
    text-transform: uppercase;
+
     
 }
 .hero .content p{
@@ -54,7 +55,7 @@
 
 @media screen and (max-width: 640px){
     .hero .content h1{
-        font-size: 2.8rem;
+        font-size: 2.3rem;
         
          
      }
@@ -63,7 +64,12 @@
          
      }
      .hero .btn{
-        padding: 10px 40px;
+        padding:10px 20px;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        border-radius: 1rem;
+        margin: 20px;
         
      }
      .hero .content{

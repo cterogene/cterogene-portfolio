@@ -55,6 +55,7 @@
     justify-content: center;
     display: flex;
     text-align: center;
+    padding:10px 20px;
 }
  .aboutSection .aboutSection-container .right h1{
     align-items: center;
@@ -73,7 +74,8 @@
         
     }
     .aboutSection{
-        padding-bottom: 1.5rem;
+        padding-bottom: 1rem;
+       
     }
     .left img{
         position: relative;
@@ -86,5 +88,7 @@
         margin: auto;
                
     }
+    
+    
     
 }
