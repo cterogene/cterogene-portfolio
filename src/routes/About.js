@@ -1,8 +1,8 @@
 import react from 'react';
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer/Footer';
 import Resume from '../components/About/Resume';
 import AboutHero from '../components/SecondHero/AboutHero';
+import AppFooter from '../components/Footer/AppFooter';
 
 const About = ()=>{
     return (
@@ -10,7 +10,7 @@ const About = ()=>{
             <Navbar />
             <AboutHero />
             <Resume />
-            <Footer />
+            <AppFooter />
         </div>
     )
 
