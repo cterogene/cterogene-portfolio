@@ -1,4 +1,4 @@
-import "./Footer.scss";
+
  
 import {FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone} from "react-icons/fa";
 
