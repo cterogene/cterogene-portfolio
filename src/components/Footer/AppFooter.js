@@ -1,24 +1,24 @@
 import { FiGithub, FiTwitter, FiFacebook } from 'react-icons/fi';
-import {FaLinkedin}from "react-icons/fa";
+import {FaLinkedin, FaFacebook, FaTwitter, FaGithub}from "react-icons/fa";
 import AppFooterCopyright from '../Footer/AppFooterCopyright';
 import "./AppFooter.scss";
 
 const socialLinks = [
 	{
 		id: 1,
-		icon: <FiGithub size={30} style = {{ color:
+		icon: <FaGithub size={30} style = {{ color:
 			"#554994"}} />,
 		url: 'https://github.com/cterogene',
 	},
 	{
 		id: 2,
-		icon: <FiTwitter size={30} style = {{ color:
+		icon: <FaTwitter size={30} style = {{ color:
 			"#554994"}} />,
 		url: 'https://twitter.com/cterogene',
 	},
 	{
 		id: 3,
-		icon: <FiFacebook size={30} style = {{ color:
+		icon: <FaFacebook size={30} style = {{ color:
 			"#554994"}}/>,
 		url: 'https://web.facebook.com/terogene.claudio',
 	},
@@ -38,7 +38,7 @@ const AppFooter = () => {
 				{/* Footer social links */}
 				<div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
 					<p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
-						Follow me
+						FOLLOW ME
 					</p>
 					<ul className="flex gap-4 sm:gap-8">
 						{socialLinks.map((link) => (
