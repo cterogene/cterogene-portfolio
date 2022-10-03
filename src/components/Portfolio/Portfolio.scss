@@ -7,3 +7,26 @@
     display: flex;
     justify-content: center;
 }
+.text-descripton{
+    margin-top: 1rem;
+    color: #554994;
+    padding:0.6rem;
+    position: relative;
+    font-weight: 350;
+    font-size: 1.2rem;
+    margin: auto;
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.btn{
+    justify-content: center;
+    display: inline;
+    position: relative;
+    text-align: center;
+    border-radius: 1rem;
+    margin-left: 12%;
+    
+}
