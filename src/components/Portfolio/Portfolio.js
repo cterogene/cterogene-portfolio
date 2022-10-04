@@ -1,7 +1,9 @@
 import './Portfolio.scss'
 import React from 'react'
 import obensonWork from "../../assets/images/obenson-portfolio.jpg"
-import panierMobile from "../../assets/images/test1.png"
+import panierMobile from "../../assets/images/panier-mobile-Images.png"
+import flixterApp from "../../assets/images/flixterApp.png"
+
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
@@ -34,15 +36,16 @@ const Portfolio = () => {
 				<Link to="/project">
 				<img
 					className="rounded-xl object-cover w-full border"
-					src={obensonWork}
+					src={flixterApp}
 				/>
-				<p className='text-descripton'> Panier Mobile 2022 </p>
+				<p className='text-descripton'> Flixter App</p>
 				<Link to='/project' className="btn"> View Project </Link>
 				</Link>
 
 				<Link to="/project"></Link>
 
 			</div>
+			
 		</>
 
 	);
