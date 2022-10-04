@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/cterogene-portfolio/static/css/main.4a338388.css",
+    "main.js": "/cterogene-portfolio/static/js/main.76b14078.js",
+    "static/js/787.d94a8b57.chunk.js": "/cterogene-portfolio/static/js/787.d94a8b57.chunk.js",
+    "static/media/claudio-intro1.jpg": "/cterogene-portfolio/static/media/claudio-intro1.805693d52b56df6d854f.jpg",
+    "static/media/after-contact.jpg": "/cterogene-portfolio/static/media/after-contact.14bd8e61528d7f3d07fc.jpg",
+    "static/media/flixterApp.png": "/cterogene-portfolio/static/media/flixterApp.6dee50aefe09ed45103a.png",
+    "static/media/obenson-work3.png": "/cterogene-portfolio/static/media/obenson-work3.dfe8f0814ca629e397b5.png",
+    "static/media/panier-mobile-Images.png": "/cterogene-portfolio/static/media/panier-mobile-Images.31fb6df258dcf1c44601.png",
+    "static/media/image-3.jpg": "/cterogene-portfolio/static/media/image-3.5a6b9b5395fb1dbca6bb.jpg",
+    "static/media/obenson-portfolio.jpg": "/cterogene-portfolio/static/media/obenson-portfolio.f124fd71f7cc50f9ccf2.jpg",
+    "static/media/obenson-work2.png": "/cterogene-portfolio/static/media/obenson-work2.05c1f9f63f9d8dbcdeff.png",
+    "static/media/image-1.jpg": "/cterogene-portfolio/static/media/image-1.e51bd23a4ba254bdd554.jpg",
+    "static/media/Claudio-Terogene-Resume.pdf": "/cterogene-portfolio/static/media/Claudio-Terogene-Resume.7404e98a47eebbab6ab0.pdf",
+    "static/media/helvetica-neu.ttf": "/cterogene-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/cterogene-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/cterogene-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/cterogene-portfolio/index.html",
+    "main.4a338388.css.map": "/cterogene-portfolio/static/css/main.4a338388.css.map",
+    "main.76b14078.js.map": "/cterogene-portfolio/static/js/main.76b14078.js.map",
+    "787.d94a8b57.chunk.js.map": "/cterogene-portfolio/static/js/787.d94a8b57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a338388.css",
+    "static/js/main.76b14078.js"
+  ]
+}
