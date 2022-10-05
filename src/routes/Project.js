@@ -5,6 +5,7 @@ import AppFooter from '../components/Footer/AppFooter';
 import ProjectHero from '../components/SecondHero/ProjectHero';
 import Portfolio_Details_1 from '../components/Portfolio/Portfolio-details-1';
 import Portfolio_Details_2 from '../components/Portfolio/Portfolio-details-2';
+import Portfolio_Details_3 from '../components/Portfolio/Portfolio-details-3'
 const Project = ()=>{
     return (
         <div> 
@@ -12,6 +13,7 @@ const Project = ()=>{
             <ProjectHero />
             <Portfolio_Details_1 />
             <Portfolio_Details_2 />
+            <Portfolio_Details_3/>
             <AppFooter />
         </div>
     )

@@ -1,13 +1,13 @@
 .hero-img4{
     width: 100%;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.7);
     height: 60vh;
     position: relative;
 }
 
 .hero-img4 ::before{
     content: "";
-    background: url(../../assets/images/image-1.jpg);
+    background: url(../../assets/images/project-Hero.jpg);
     background-size: cover;
     background-position: center top;
     height: 100%;
@@ -42,5 +42,13 @@
     }
     .hero-img4 p{
         font-size: 1.4rem;
+    }.hero-img4 .heading .btn{
+        padding:10px 20px;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        border-radius: 1rem;
+        margin: 20px;
+        
     }
 }

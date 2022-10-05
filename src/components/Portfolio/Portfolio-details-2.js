@@ -1,8 +1,9 @@
 import './Portfolio-details-2.scss'
 import React from 'react'
-import obensonWork from "../../assets/images/panier-mobile-1.png"
-import obensonWork1 from "../../assets/images/panier-mobile-2.png"
-import obensonWork2 from "../../assets/images/panier-mobile-3.png"
+import panierMobile1 from "../../assets/images/panier-mobile-1.png"
+import panierMobile2  from "../../assets/images/panier-mobile-2.png"
+import panierMobile3  from "../../assets/images/panier-mobile-3.png"
+import panierMobile4  from "../../assets/images/panier-mobile-4.png"
 
 
 import { Link } from "react-router-dom";
@@ -16,23 +17,28 @@ const Portfolio_Details_2 = () => {
 					PANIER MOBILE 2022
                     </h3>
 			</div>
-			<div className="grid grid-cols-1 gap-3 lg:grid-cols-3 sm:grid-cols-2">
+			<div className="grid grid-cols-1 gap-4 lg:grid-cols-4 sm:grid-cols-2">
 				
 				<img
 					className="rounded-xl object-cover w-full border shadow-lg"
 					
-					src={obensonWork}
+					src={panierMobile1}
 				/>
 
 				<img
 					className="rounded-xl object-cover w-full border"
-					src={obensonWork1}
+					src={panierMobile2}
 				/>
 
 				
 				<img
 					className="rounded-xl object-cover w-full border"
-					src={obensonWork2}
+					src={panierMobile3}
+				/>
+
+                <img
+					className="rounded-xl object-cover w-full border"
+					src={panierMobile4}
 				/>
 
 			</div>

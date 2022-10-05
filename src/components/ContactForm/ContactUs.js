@@ -24,9 +24,9 @@ export const ContactUs = ()=>{
     return (
         <div className='form'>
             <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
+                <label>Full Name</label>
                 <input type="text" name="user_name"  required/>
-                <label>Email</label>
+                <label>Email </label>
                 <input type="email" name="user_email" required />
                 <label>Subject</label>
                 <input type="text" name="user_subject" required/>

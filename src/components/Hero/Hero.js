@@ -11,7 +11,6 @@ const Hero = () => {
                 <img className="intro-img" src = {Herobg} alt="Hero-img" />
             </div>
             <div className="content">
-                <p> </p>
                 
                 <div className='type'>
                     
