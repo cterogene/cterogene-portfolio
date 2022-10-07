@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import pdf from '../../assets/resume/Claudio-Terogene-Resume.pdf';
 const AboutComponent = () => {
     return (
+        <>
         <div className='aboutSection'>
             <div className='aboutSection-container'>
                 <div className='left'>
@@ -27,6 +28,10 @@ const AboutComponent = () => {
 
             </div>
         </div>
+
+
+
+</>
 
     );
 };

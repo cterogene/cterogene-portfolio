@@ -1,5 +1,5 @@
 import React from 'react'
-import claudio from "../../assets/images/claudio-intro1.jpg"
+import claudio from "../../assets/images/claudio-intro2.jpg"
 import pdf from '../../assets/resume/Claudio-Terogene-Resume.pdf';
 const Stats = () => {
     return (
@@ -62,6 +62,14 @@ const Stats = () => {
                             
                         >
                             HIRE ME
+                        </button></a>
+                        <a href="project"><button
+                            className="bg-purple-500 active:bg-purple-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 m-6"
+                            type="button"
+                            style={{ transition: "all .15s ease" }}
+                            
+                        >
+                            PROJECT
                         </button></a>
                         </div>
                     </div>
