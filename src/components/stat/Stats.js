@@ -1,6 +1,8 @@
 import React from 'react'
 import claudio from "../../assets/images/claudio-intro2.jpg"
 import pdf from '../../assets/resume/Claudio-Terogene-Resume.pdf';
+
+import { Link } from "react-router-dom";
 const Stats = () => {
     return (
         <>
@@ -55,35 +57,27 @@ const Stats = () => {
                     </div>
                     <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
                         <div className="py-6 px-3 mt-32 sm:mt-0">
-                        <a href="contact"><button
-                            className="bg-purple-500 active:bg-purple-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
-                            type="button"
-                            style={{ transition: "all .15s ease" }}
-                            
-                        >
-                            HIRE ME
-                        </button></a>
-                        <a href="project"><button
-                            className="bg-purple-500 active:bg-purple-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 m-6"
-                            type="button"
-                            style={{ transition: "all .15s ease" }}
-                            
-                        >
-                            PROJECT
-                        </button></a>
+                        <Link to='/contact'>
+                             <button
+                                className="bg-purple-500 active:bg-purple-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
+                                type="button"
+                                style={{ transition: "all .15s ease" }}>
+                                HIRE ME
+                            </button>
+                        </Link>
                         </div>
                     </div>
                     <div className="w-full lg:w-4/12 px-4 lg:order-1">
                         <div className="flex justify-center py-4 lg:pt-4 pt-8">
                         <div className="mr-4 p-3 text-center">
                             <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
-                            10+
+                            20+
                             </span>
                             <span className="text-sm text-gray-500">Project</span>
                         </div>
                         <div className="mr-4 p-3 text-center">
                             <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
-                            50+
+                            55+
                             </span>
                             <span className="text-sm text-gray-500">Tech articles</span>
                         </div>
@@ -119,11 +113,11 @@ const Stats = () => {
                         <p className="mb-4 text-lg leading-relaxed text-gray-800">
                         I'm a passionate about technologies. I have a bachelor degree in Computer Science at Espoir University. (2017-2022)
 
-                        My tech jouney started in 2017. From this date I have been using Java, C#, Python, Html and Css.
+                        My tech jouney started in 2017. From this date I have been using Java, C#, Python, Html, Css and JavaScript.
 
-                        I'm also a CodePath alumni. I have 1+ year experience working with Android Studio.
+                        I'm also a CodePath alumni. I have 1+ year experiences working with Android Studio.
 
-                        I have 6+ month experiences working with the React framework, I'm learning the core skills to create beautiful front-end design and back-end.
+                        I also have 6+ month experiences working with the React framework, I'm learning the core skills to create beautiful front-end designs.
                                                 Fun Fact:  I love Software Development. 
                         </p>
                         

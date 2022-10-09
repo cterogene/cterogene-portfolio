@@ -2,6 +2,7 @@ import './ContactUs.scss';
 import React  from 'react';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Link } from "react-router-dom";
 
 export const ContactUs = ()=>{
 
@@ -14,7 +15,6 @@ export const ContactUs = ()=>{
         .then((result) => {
             console.log(result.text);
             alert("Thank you for your message, we'll be in touch soon !")
-            window.location.reload(false)
         }, (error) => {
             console.log(error.text);
             alert("Failed to send the message, Please try again.")
@@ -32,7 +32,7 @@ export const ContactUs = ()=>{
                 <input type="text" name="user_subject" required/>
                 <label>Message</label>
                 <textarea name="message" required />
-                <input type="submit" className='button' value="Send" />
+                <input onClick={() => {window.location.href="/contact"}} type="submit" className='button' value="Send" />
             </form>
         </div>
     );

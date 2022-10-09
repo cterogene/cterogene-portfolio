@@ -16,9 +16,9 @@ const Portfolio = () => {
 			<div className="grid grid-cols-1 gap-3 lg:grid-cols-3 sm:grid-cols-2 ">
 				
 
-					<a href="project">
+					<Link to='/project' >
 						<img class="rounded-t-lg " src={panierMobile} alt="" />
-						<p className="text-xl font-bold block uppercase tracking-wide text-purple-700 text-center"> PANIER MOBILE 2022</p>
+						<p className="text-xl font-bold block uppercase tracking-wide text-purple-600 text-center"> PANIER MOBILE 2022</p>
 						<div class="flex flex-col justify-center items-center m-5">
 
 						<button
@@ -26,12 +26,12 @@ const Portfolio = () => {
 								type="button"
 								style={{ transition: "all .15s ease" }}>See More</button>
 						</div>
-					</a>
+					</Link>
 				
 
-					<a href="project">
+					<Link to='/project' >
 						<img class="rounded-t-lg text-center" src={obensonWork} alt="" />
-						<p className="text-xl font-bold block uppercase tracking-wide text-purple-700 text-center">PERSONAL PORTFOLIO</p>
+						<p className="text-xl font-bold block uppercase tracking-wide text-purple-600 text-center">PERSONAL PORTFOLIO</p>
 						<div class="flex flex-col justify-center items-center m-5">
 
 						<button
@@ -41,12 +41,12 @@ const Portfolio = () => {
 						</div>
 							
 						
-					</a>
+					</Link>
 					
 
-					<a href="project">
+					<Link to='/project' >
 						<img class="rounded-t-lg " src={flixterApp} alt="" />
-						<p className="text-xl font-bold block uppercase tracking-wide text-purple-700 text-center"> FLIXTER APP </p>
+						<p className="text-xl font-bold block uppercase tracking-wide text-purple-600 text-center"> FLIXTER APP </p>
 						<div class="flex flex-col justify-center items-center m-5">
 
 						<button
@@ -54,7 +54,7 @@ const Portfolio = () => {
 								type="button"
 								style={{ transition: "all .15s ease" }}>See More</button>
 						</div>
-					</a>
+					</Link>
 				
 			</div>
 			
