@@ -10,15 +10,18 @@ export const ContactUs = ()=>{
 
     const sendEmail = (e) => {
         e.preventDefault();
-
+        
         emailjs.sendForm('service_s0j3eki', 'template_6ptan4b', form.current, 'WIQJ-LIsfPZtG3GD-')
         .then((result) => {
+            
             console.log(result.text);
-            alert("Thank you for your message, we'll be in touch soon !")
+            if(window.confirm("Thank you for your message, we'll be in touch soon !")) {
+                window.location.href = "/contact"
+            }
         }, (error) => {
             console.log(error.text);
             alert("Failed to send the message, Please try again.")
-        });
+        });     
   };
 
     return (
@@ -32,7 +35,9 @@ export const ContactUs = ()=>{
                 <input type="text" name="user_subject" required/>
                 <label>Message</label>
                 <textarea name="message" required />
-                <input onClick={() => {window.location.href="/contact"}} type="submit" className='button' value="Send" />
+                
+                 <input type="submit" className='button' value="Send" />
+                
             </form>
         </div>
     );
