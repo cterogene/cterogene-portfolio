@@ -29,8 +29,6 @@ const AboutComponent = () => {
                 </div>
             </div>
 
-
-
         </>
 
     );
