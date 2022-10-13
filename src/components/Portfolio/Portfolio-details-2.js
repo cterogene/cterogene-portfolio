@@ -55,7 +55,7 @@ const Portfolio_Details_2 = () => {
                     type="button"
                     style={{ transition: "all .15s ease" }}
 
-                > View Project
+                > View Project on Github
                 </button></a>
 
             </div>

@@ -3,7 +3,7 @@ import "./AppFooter.scss";
 function AppFooterCopyright() {
 	return (
 		<div className="copy">
-			<div className="font-general-regular flex justify-center items-center text-center">
+			<div className="font-general-regular flex justify-center items-center text-center ">
 				<div className="text-secondary-white dark:text-secondary-light font-medium uppercase hover:underline">
 
 					&copy; {new Date().getFullYear()}

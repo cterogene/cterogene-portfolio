@@ -1,4 +1,5 @@
 import './Hero.scss'
+//import Herobg1 from "../../assets/images/image-3.jpg";
 import Herobg from "../../assets/images/image-3.jpg";
 import { Link } from "react-router-dom";
 import Typewriter from 'typewriter-effect';
@@ -8,12 +9,12 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="mask">
-                <img className="intro-img" src = {Herobg} alt="Hero-img" />
+                <img className="intro-img" src={Herobg} alt="Hero-img" />
             </div>
             <div className="content">
-                
+
                 <div className='type'>
-                    
+
                     <Typewriter
                         options={{
                             strings: ['HI THERE ! ', 'WELCOME TO MY PORTFOLIO'],
@@ -21,7 +22,7 @@ const Hero = () => {
                             loop: true,
                         }}
                     />
-                    
+
                 </div>
                 <h1 > I'm a Software Developer based in Haiti </h1>
                 <div>
@@ -29,7 +30,7 @@ const Hero = () => {
                     <Link to="/contact" className="btn btn-light">Hire Me</Link>
                 </div>
             </div>
-            
+
         </div>
 
     );

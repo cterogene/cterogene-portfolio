@@ -7,25 +7,25 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FaGithub size={30} style = {{ color:
-			"#554994"}} />,
+			"#303F9F"}} />,
 		url: 'https://github.com/cterogene',
 	},
 	{
 		id: 2,
 		icon: <FaTwitter size={30} style = {{ color:
-			"#554994"}} />,
+			"#303F9F"}} />,
 		url: 'https://twitter.com/cterogene',
 	},
 	{
 		id: 3,
 		icon: <FaFacebook size={30} style = {{ color:
-			"#554994"}}/>,
+			"#303F9F"}}/>,
 		url: 'https://web.facebook.com/terogene.claudio',
 	},
 	{
 		id:4,
 		icon: <FaLinkedin size={30} style = {{ color:
-			"#554994"}}/>,
+			"#303F9F"}}/>,
 		url: 'https://www.linkedin.com/in/cterogene/',
 	},
 ];

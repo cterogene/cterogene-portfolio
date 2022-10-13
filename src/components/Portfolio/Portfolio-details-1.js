@@ -49,7 +49,7 @@ const Portfolio_Details_1 = () => {
 					type="button"
 					style={{ transition: "all .15s ease" }}
 
-				> View Project
+				> View Live Project
 				</button></a>
 
 			</div>
