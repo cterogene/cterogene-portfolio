@@ -59,7 +59,7 @@ const Stats = () => {
                                         <div className="py-6 px-3 mt-32 sm:mt-0">
                                             <Link to='/contact'>
                                                 <button
-                                                    className="bg-purple-500 active:bg-purple-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
+                                                    className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
                                                     type="button"
                                                     style={{ transition: "all .15s ease" }}>
                                                     HIRE ME
@@ -122,7 +122,7 @@ const Stats = () => {
                                             </p>
 
                                             <a href={pdf} download ><button
-                                                className="bg-purple-500 active:bg-purple-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
+                                                className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
                                                 type="button"
                                                 style={{ transition: "all .15s ease" }}
 

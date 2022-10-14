@@ -13,7 +13,7 @@ const Portfolio_Details_2 = () => {
     return (
         <>
             <div className='header-text'>
-                <h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5">
+                <h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700">
                     PANIER MOBILE 2022
                 </h3>
             </div>
@@ -51,7 +51,7 @@ const Portfolio_Details_2 = () => {
                 </p>
 
                 <a href='https://github.com/cterogene/PanierMobile1.0' target='_blank' ><button
-                    className="bg-purple-500 active:bg-purple-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
+                    className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
                     type="button"
                     style={{ transition: "all .15s ease" }}
 
