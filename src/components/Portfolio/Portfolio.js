@@ -10,8 +10,8 @@ const Portfolio = () => {
 
 	return (
 		<>
-			<div className='header-text'>
-				<h1>PORTFOLIO</h1>
+			<div className='header-text '>
+				<h1 >PORTFOLIO</h1>
 			</div>
 			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3 ">
 

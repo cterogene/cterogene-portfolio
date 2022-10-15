@@ -1,4 +1,4 @@
-import './Portfolio-details-3.scss'
+
 import React from 'react'
 import flixterApp1 from "../../assets/images/flixterApp1.png"
 import flixterApp2 from "../../assets/images/flixterApp2.png"
@@ -11,7 +11,7 @@ const Portfolio_Details_1 = () => {
 	return (
 		<>
 			<div className='header-text'>
-				<h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700">
+				<h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 ">
 					FLIXTER APP
 				</h3>
 			</div>

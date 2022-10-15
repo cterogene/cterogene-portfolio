@@ -1,4 +1,4 @@
-import './Portfolio-details-1.scss'
+
 import React from 'react'
 import obensonWork1 from "../../assets/images/obenson-portfolio.jpg"
 import obensonWork from "../../assets/images/obenson-portfolio-1.png"
@@ -11,7 +11,7 @@ const Portfolio_Details_1 = () => {
 	return (
 		<>
 			<div className='header-text'>
-				<h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700">
+				<h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 ">
 					GARIZIM
 				</h3>
 			</div>
@@ -40,7 +40,7 @@ const Portfolio_Details_1 = () => {
 			</div>
 
 			<div className='details' class="flex flex-col justify-center items-center m-5">
-				<p className='mb-4 text-lg leading-relaxed text-gray-800 m-5'>
+				<p className='mb-4 text-lg leading-relaxed text-gray-800 m-5 text-center'>
 					Garizim is a personal portfolio made with Asp.net and bootstrap. user can see detailed project with all of the most recent work. It is being hosted on <a className='mb-4 text-lg leading-relaxed text-gray-800 m-5' href="" target="_blank">somee</a>
 
 				</p>

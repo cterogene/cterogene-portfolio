@@ -1,4 +1,4 @@
-import './Portfolio-details-2.scss'
+
 import React from 'react'
 import panierMobile1 from "../../assets/images/panier-mobile-1.png"
 import panierMobile2 from "../../assets/images/panier-mobile-2.png"
@@ -13,7 +13,7 @@ const Portfolio_Details_2 = () => {
     return (
         <>
             <div className='header-text'>
-                <h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700">
+                <h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 ">
                      MOBILE CHART 
                 </h3>
             </div>
@@ -46,7 +46,7 @@ const Portfolio_Details_2 = () => {
             </div>
 
             <div className='details' class="flex flex-col justify-center items-center m-5">
-                <p className='mb-4 text-lg leading-relaxed text-gray-800 m-5'>
+                <p className='mb-4 text-lg leading-relaxed text-gray-800 m-5text-center '>
                      Mobile chart is a collaboration android app that lets users add product, sell product and buy product within the app with secure connections.
                     For now the project is on the development stage and is ready to view on Github.
                 </p>

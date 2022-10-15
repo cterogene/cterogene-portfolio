@@ -17,7 +17,7 @@ const Technologies = () => {
     return (
         <>
             <div className='header-text'>
-                <h3 className="text-4xl sm:text-4xl text-primary-dark dark:text-primary-light m-15 text-indigo-700">
+                <h3 className="text-4xl sm:text-4xl text-primary-dark dark:text-primary-light m-15 text-indigo-700 text-center m-10">
                     LANGUAGES  AND TECHNOLOGIES
                 </h3>
             </div>
