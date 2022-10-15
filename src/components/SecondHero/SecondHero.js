@@ -3,7 +3,7 @@ const SecondHero = ()=>{
     return (
         <div className='hero-img'>
             <div className='heading'>
-                <h1> CONTACT WITH ME</h1>
+                <h1> CONTACT ME</h1>
                 
             </div>
         </div>

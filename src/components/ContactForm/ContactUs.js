@@ -15,9 +15,7 @@ export const ContactUs = () => {
             .then((result) => {
 
                 console.log(result.text);
-                if (window.confirm("Thank you for your message, we'll be in touch soon !")) {
-                    window.location.href = "/contact"
-                }
+               
             }, (error) => {
                 console.log(error.text);
                 alert("Failed to send the message, Please try again.")

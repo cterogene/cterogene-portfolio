@@ -15,7 +15,7 @@ const Portfolio_Details_1 = () => {
 					GARIZIM
 				</h3>
 			</div>
-			<div className="grid grid-cols-1 gap-3 lg:grid-cols-3 sm:grid-cols-2">
+			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3">
 				<a href='http://garizim.somee.com/' target="_blank">
 					<img
 						className="rounded-xl object-cover w-full border shadow-lg"
@@ -41,7 +41,8 @@ const Portfolio_Details_1 = () => {
 
 			<div className='details' class="flex flex-col justify-center items-center m-5">
 				<p className='mb-4 text-lg leading-relaxed text-gray-800 m-5'>
-					Garizim is a personal portfolio made with Asp.net and bootstrap. user can see detailed project with all of the most recent work.
+					Garizim is a personal portfolio made with Asp.net and bootstrap. user can see detailed project with all of the most recent work. It is being hosted on <a className='mb-4 text-lg leading-relaxed text-gray-800 m-5' href="" target="_blank">somee</a>
+
 				</p>
 
 				<a href='http://garizim.somee.com/' target='_blank' ><button
