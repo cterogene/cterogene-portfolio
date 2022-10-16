@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom'
 import { useState } from "react";
 import day from "../../assets/images/day.png"
 import night from "../../assets/images/night.png"
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaSun, FaMoon } from "react-icons/fa";
 
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
+    const [theme, setTheme] = useState(click);
+    const handleTheme = () => setTheme(!theme);
 
     const [color, setColor] = useState(false);
     const changeColor = () => {
@@ -32,11 +34,12 @@ const Navbar = () => {
             </Link>
             <ul className={click ? "nav-menu active" :
                 "nav-menu"}>
-
                 <li>
-                    <img src={day} />
+                <div onClick={handleTheme}>
+                    {theme ? (<FaSun size={25} style={{ color: '#fff' }} />
+                    ) : (<FaMoon size={25} style={{ color: '#fff' }} />)}
+                </div>
                 </li>
-
                 <li>
                     <Link to="/project">WORKS</Link>
                 </li>

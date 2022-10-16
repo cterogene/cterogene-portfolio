@@ -36,8 +36,9 @@
 }
 .hamburger{
     display: none;
-    color: #554994;
+    
 }
+
 
 @media screen and (max-width: 1040px){
     .nav-menu{
@@ -53,14 +54,8 @@
         z-index: -3;
         
     }
-
-
     .nav-menu.active{
         left: 0;
-        
-        
-        
-        
     }
 
     .nav-menu li{
@@ -70,6 +65,10 @@
         font-size: 1.5rem;
     }
     .hamburger{
+        display: initial;
+        color: #554994;
+    }
+    .theme{
         display: initial;
         color: #554994;
     }
