@@ -4,12 +4,12 @@ import { FaSun, FaMoon } from "react-icons/fa";
 import React from 'react';
 const Toggle = () => {
 
-  const [activeTheme, setTheme] = useThemeSwitcher();
+    const [activeTheme, setTheme] = useThemeSwitcher();
 
     return (
         <div onClick={() => setTheme(activeTheme)}>
-            {activeTheme === 'light' ? (<FaSun size={25} style={{ color: '#fff' }} /> ):  (<FaMoon size={25} style={{ color: '#fff' }} />)}
-            
+            {activeTheme === 'light' ? (<FaSun size={25} style={{ color: '#fff' }} />) : (<FaMoon size={25} style={{ color: '#fff' }} />)}
+
         </div>
     );
 }
