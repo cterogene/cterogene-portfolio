@@ -1,17 +1,14 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
 import { useState } from "react";
-import day from "../../assets/images/day.png"
-import night from "../../assets/images/night.png"
+import Toggle from "../Toggle/Toggle"
 import { FaBars, FaTimes, FaSun, FaMoon } from "react-icons/fa";
 
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
-    const [theme, setTheme] = useState(click);
-    const handleTheme = () => setTheme(!theme);
-
+    
     const [color, setColor] = useState(false);
     const changeColor = () => {
         if (window.scrollY >= 100) {
@@ -27,20 +24,17 @@ const Navbar = () => {
 
 
     return (
-        <div className={color ? "header header-bg" : "header"}>
+        <div className={color ? "header header-bg dark:bg-slate-900 dark:text-slate-400" : "header"}>
             <Link to="/">
-                <h1 className='name'> CLAUDIO TEROGENE</h1>
+                <h1 className='name dark:text-gray-200'> CLAUDIO TEROGENE</h1>
 
             </Link>
-            <ul className={click ? "nav-menu active" :
+
+            <Toggle />
+
+            <ul className={click ? "nav-menu active dark:text-gray-200" :
                 "nav-menu"}>
-                <li>
-                <div onClick={handleTheme}>
-                    {theme ? (<FaSun size={25} style={{ color: '#fff' }} />
-                    ) : (<FaMoon size={25} style={{ color: '#fff' }} />)}
-                </div>
-                </li>
-                <li>
+                <li className='dark:text-gray-200'>
                     <Link to="/project">WORKS</Link>
                 </li>
                 <li>
@@ -53,11 +47,12 @@ const Navbar = () => {
             <div className='hamburger' onClick={handleClick}>
                 {click ? (<FaTimes size={23} style={{ color: '#fff' }} />
                 ) : (<FaBars size={23} style={{ color: '#fff' }} />)}
-
-
             </div>
-
+            
         </div>
+       
+        
+
     );
 };
 export default Navbar 

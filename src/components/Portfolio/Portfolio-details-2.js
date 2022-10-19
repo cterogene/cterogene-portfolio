@@ -46,13 +46,13 @@ const Portfolio_Details_2 = () => {
             </div>
 
             <div className='details' class="flex flex-col justify-center items-center m-5">
-                <p className='mb-4 text-lg leading-relaxed text-gray-800 m-5text-center '>
+                <p className='mb-4 text-lg leading-relaxed text-gray-800 m-5 text-center dark:text-gray-200 '>
                      Mobile chart is a collaboration android app that lets users add product, sell product and buy product within the app with secure connections.
                     For now the project is on the development stage and is ready to view on Github.
                 </p>
 
                 <a href='https://github.com/cterogene/PanierMobile1.0' target='_blank' ><button
-                    className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
+                    className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 dark:bg-slate-900"
                     type="button"
                     style={{ transition: "all .15s ease" }}
 

@@ -38,13 +38,13 @@ const Portfolio_Details_1 = () => {
 			</div>
 
 			<div className='details' class="flex flex-col justify-center items-center m-5">
-				<p className='mb-4 text-lg leading-relaxed text-gray-800 m-5 text-center'>
+				<p className='mb-4 text-lg leading-relaxed text-gray-800 m-5 text-center dark:text-gray-200'>
 					Flixter App is an android app that lets users to see the latest popular movies using the movieDB Api. It also allows users to see the trailer of a selected movie within the list.
 					I did use the movieDB api for all the movies information. 
 				</p>
 
 				<a href='https://github.com/cterogene/Flixter' target='_blank' ><button
-					className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
+					className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 dark:bg-slate-900"
 					type="button"
 					style={{ transition: "all .15s ease" }}
 

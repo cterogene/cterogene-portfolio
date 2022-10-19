@@ -40,13 +40,13 @@ const Portfolio_Details_1 = () => {
 			</div>
 
 			<div className='details' class="flex flex-col justify-center items-center m-5">
-				<p className='mb-4 text-lg leading-relaxed text-gray-800 m-5 text-center'>
-					Garizim is a personal portfolio made with Asp.net and bootstrap. user can see detailed project with all of the most recent work. It is being hosted on <a className='mb-4 text-lg leading-relaxed text-gray-800 m-5' href="" target="_blank">somee</a>
+				<p className='mb-4 text-lg leading-relaxed text-gray-800 m-5 text-center dark:text-gray-200'>
+					Garizim is a personal portfolio made with Asp.net and bootstrap. user can see detailed project with all of the most recent work. It is being hosted on <a className='mb-4 text-lg leading-relaxed text-gray-800 m-5 dark:text-gray-300' href="" target="_blank">somee</a>
 
 				</p>
 
 				<a href='http://garizim.somee.com/' target='_blank' ><button
-					className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1"
+					className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 dark:bg-slate-900"
 					type="button"
 					style={{ transition: "all .15s ease" }}
 

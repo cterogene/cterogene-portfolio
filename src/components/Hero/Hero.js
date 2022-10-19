@@ -1,15 +1,17 @@
 import './Hero.scss'
-//import Herobg1 from "../../assets/images/image-3.jpg";
-import Herobg from "../../assets/images/image-3.jpg";
+
+import useThemeSwitcher from '../Toggle/useThemeSwitcher';
+import Herobg1 from "../../assets/images/homeHeader2.jpg";
 import { Link } from "react-router-dom";
 import Typewriter from 'typewriter-effect';
+import { FiArrowDownCircle } from 'react-icons/fi';
 
 
 const Hero = () => {
     return (
         <div className="hero">
             <div className="mask">
-                <img className="intro-img" src={Herobg} alt="Hero-img" />
+                <img className="intro-img" src={Herobg1} alt="Developer" />
             </div>
             <div className="content">
 
@@ -24,10 +26,11 @@ const Hero = () => {
                     />
 
                 </div>
-                <h1 > I'm a Software Developer based in Haiti </h1>
+                <h1 className="dark:text-gray-300"> I'm a Software Developer based in Haiti </h1>
                 <div>
-                    <Link to="/project" className="btn">My  Project</Link>
-                    <Link to="/contact" className="btn btn-light">Hire Me</Link>
+                    
+                    <Link to="/project" className="btn dark:bg-slate-800 dark:text-gray-200">My  Project</Link>
+                    <Link to="/contact" className="btn btn-light dark:text-gray-200 dark:bg-slate-800">Hire Me</Link>
                 </div>
             </div>
 
