@@ -6,21 +6,21 @@ This is my online Resume made with React, Sass and Tailwind css.
 
 - [x] Home Page presentation and overview. 
 - [x] All of my recent project.
-- [x] About me pages.
+- [x] About pages.
 - [x] Contact form options. 
 - [x] Resume available for download .
 
-### App Walkthough GIF
+### Portfolio Walkthough GIF
 
 
-<img src="" width=250><br>
+<img src="portfolio-gif.gif" width=250><br>
 
 # Estimated working time
- 24 hour and 50 minutes.  
+ 31 hour and 30 minutes. 
 
 ### Notes
 
-Building a Portfolio is a challenge. Being ready to add Skills and Challenges for people around the world to see.
+Building a Portfolio is a challenge. Being ready to add Skills and Challenges for people around the world to see. and sometimes it's a quite difficult to choose what to choose.
 
 
 
