@@ -3,18 +3,13 @@ import claudio from "../../assets/images/claudio-intro2.jpg"
 import pdf from '../../assets/resume/Claudio-Terogene-Resume.pdf';
 
 import { Link } from "react-router-dom";
-const Stats = () => {
+const Resume = () => {
     return (
         <>
             <main className="profile-page dark:bg-slate-900">
                 <section className="relative block dark:bg-slate-900" style={{ height: "500px" }}>
                     <div
-                        className="absolute top-0 w-full h-full bg-center bg-cover"
-                        style={{
-                            backgroundImage:
-                                "url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80')"
-                        }}
-                    >
+                        className="absolute top-0 w-full h-full bg-center bg-cover bg-indigo-700 dark:bg-slate-900">
                         <span
                             id="blackOverlay"
                             className="w-full h-full absolute opacity-50 bg-black"
@@ -141,4 +136,4 @@ const Stats = () => {
         </>
     );
 }
-export default Stats
+export default Resume

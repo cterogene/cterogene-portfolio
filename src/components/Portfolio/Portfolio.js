@@ -1,4 +1,3 @@
-import './Portfolio.scss'
 import React from 'react'
 import obensonWork from "../../assets/images/obenson-portfolio.jpg"
 import panierMobile from "../../assets/images/panier-mobile-Images.png"
@@ -11,7 +10,7 @@ const Portfolio = () => {
 	return (
 		<>
 			<div className='header-text '>
-				<h1 className='dark:text-white '>PORTFOLIO</h1>
+				<h1 className='dark:text-white text-4xl sm:text-4xl text-primary-dark dark:text-primary-light m-15 text-indigo-700 text-center m-10'>PORTFOLIO</h1>
 			</div>
 			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3 ">
 

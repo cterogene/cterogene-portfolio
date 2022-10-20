@@ -1,12 +1,11 @@
-import react from 'react';
 import Navbar from '../components/Navbar';
 import AppFooter from '../components/Footer/AppFooter';
-import Stats from '../components/stat/Stats';
+import Resume from '../components/Resume/Resume';
 const About = () => {
     return (
         <div>
             <Navbar />
-            <Stats />
+            <Resume />
             <AppFooter />
         </div>
     )
