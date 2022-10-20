@@ -13,7 +13,7 @@ This is my online Resume made with React, Sass and Tailwind css.
 ### Portfolio Walkthough GIF
 
 
-<img src="portfolio-gif.gif" width=800 height=250><br>
+<img src="portfolio-gif.gif" width=600 height=350><br>
 
 # Estimated working time
  31 hour and 30 minutes. 
