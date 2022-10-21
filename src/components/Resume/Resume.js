@@ -106,14 +106,11 @@ const Resume = () => {
                                     <div className="flex flex-wrap justify-center">
                                         <div className="w-full lg:w-9/12 px-4">
                                             <p className="mb-4 text-lg leading-relaxed text-gray-800 dark:text-gray-200">
-                                                I'm a passionate about technologies. I have a bachelor degree in Computer Science at Espoir University. (2017-2022)
-
-                                                My tech jouney started in 2017. From this date I have been using Java, C#, Python, Html, Css and JavaScript.
-
-                                                I'm also a CodePath alumni. I have 1+ year experiences working with Android Studio.
-
-                                                I also have 6+ month experiences working with the React framework, I'm learning the core skills to create beautiful front-end designs.
-                                                Fun Fact:  I love Software Development.
+                                            I'm passionate about technology. I have a bachelor's degree in Computer Science from Espoir University. 
+                                            (2017-2022) My tech journey started in 2017. From this date, I have been using Java, C#, Python, Html, CSS, and JavaScript. 
+                                            I'm also a CodePath alumnus. I have 1+ year of experience working with Android Studio. 
+                                            I also have 6+ months of experience working with the React framework, I'm learning the core skills to create beautiful front-end designs. 
+                                            Fun Fact: I love Software Development.
                                             </p>
 
                                             <a href={pdf} download ><button
