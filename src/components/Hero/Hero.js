@@ -1,15 +1,13 @@
 import './Hero.scss'
-
-import useThemeSwitcher from '../Toggle/useThemeSwitcher';
 import Herobg1 from "../../assets/images/homeHeader2.jpg";
 import { Link } from "react-router-dom";
 import Typewriter from 'typewriter-effect';
-import { FiArrowDownCircle } from 'react-icons/fi';
+
 
 
 const Hero = () => {
     return (
-        <div className="hero">
+        <div className="hero" id="home">
             <div className="mask">
                 <img className="intro-img" src={Herobg1} alt="Developer" />
             </div>

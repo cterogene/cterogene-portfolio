@@ -2,8 +2,7 @@ import React from 'react'
 import obensonWork from "../../assets/images/obenson-portfolio.jpg"
 import panierMobile from "../../assets/images/panier-mobile-Images.png"
 import flixterApp from "../../assets/images/flixterApp.png"
-
-import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 const Portfolio = () => {
 
@@ -15,7 +14,8 @@ const Portfolio = () => {
 			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3 ">
 
 
-				<Link to='/project/#panierMobile' >
+
+				<HashLink to='/project#mobile' smooth>
 					<div class="flex flex-col justify-center items-center m-1">
 						<img class="rounded-xl object-cover w-full border " src={panierMobile} alt="" />
 						<p className="mb-4 text-lg leading-relaxed text-indigo-700 m-10 dark:text-white">  MOBILE CHART </p>
@@ -26,11 +26,11 @@ const Portfolio = () => {
 							type="button"
 							style={{ transition: "all .15s ease" }}>See More</button>
 					</div>
-				</Link>
+				</HashLink>
 
 
 
-				<Link to='/project' >
+				<HashLink to='/project#flixter' smooth>
 					<div class="flex flex-col justify-center items-center m-1">
 						<img class="rounded-xl object-cover w-full border " src={flixterApp} alt="" />
 						<p className="mb-4 text-lg leading-relaxed text-indigo-700 m-10 dark:text-white"> FLIXTER APP </p>
@@ -41,12 +41,12 @@ const Portfolio = () => {
 							type="button"
 							style={{ transition: "all .15s ease" }}>See More</button>
 					</div>
-				</Link>
+				</HashLink>
 
 
 
 
-				<Link to='/project/#garizim' >
+				<HashLink to='/project#garizim' >
 					<div class="flex flex-col justify-center items-center m-1">
 						<img class="rounded-xl object-cover w-full border" src={obensonWork} alt="" />
 						<p className="mb-4 text-lg leading-relaxed text-indigo-700 m-10 dark:text-white">GARIZIM</p>
@@ -60,7 +60,7 @@ const Portfolio = () => {
 					</div>
 
 
-				</Link>
+				</HashLink>
 
 
 

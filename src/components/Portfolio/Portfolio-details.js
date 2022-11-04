@@ -20,32 +20,32 @@ const Portfolio_Details = () => {
 	return (
 		<>
 
-			<div className='header-text' id='panierMobile'>
-				<h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 ">
+			<div className='header-text' id="mobile">
+				<h3  className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 " >
 					MOBILE CHART
 				</h3>
 			</div>
-			<div className="grid grid-cols-1 gap-1 lg:grid-cols-4 sm:grid-cols-2" >
-				<a href='https://github.com/cterogene/PanierMobile1.0' target="_blank">
+			<div className="grid grid-cols-1 gap-1 lg:grid-cols-4 sm:grid-cols-2 " >
+				<a href='https://github.com/cterogene/PanierMobile1.0' target="_blank" rel="noreferrer">
 					<img
 						className="rounded-xl object-cover w-full border shadow-lg"
-
+						
 						src={panierMobile1}
 					/>
 				</a>
-				<a href='https://github.com/cterogene/PanierMobile1.0' target="_blank">
+				<a href='https://github.com/cterogene/PanierMobile1.0' target="_blank" rel="noreferrer">
 					<img
 						className="rounded-xl object-cover w-full border"
 						src={panierMobile2}
 					/>
 				</a>
-				<a href='https://github.com/cterogene/PanierMobile1.0' target="_blank">
+				<a href='https://github.com/cterogene/PanierMobile1.0' target="_blank" rel="noreferrer">
 					<img
 						className="rounded-xl object-cover w-full border "
 						src={panierMobile3}
 					/>
 				</a>
-				<a href='https://github.com/cterogene/PanierMobile1.0' target="_blank">
+				<a href='https://github.com/cterogene/PanierMobile1.0' target="_blank" rel="noreferrer">
 					<img
 						className="rounded-xl object-cover w-full border"
 						src={panierMobile4}
@@ -59,7 +59,7 @@ const Portfolio_Details = () => {
 					For now the project is on the development stage and is ready to view on Github.
 				</p>
 
-				<a href='https://github.com/cterogene/PanierMobile1.0' target='_blank' ><button
+				<a href='https://github.com/cterogene/PanierMobile1.0' target='_blank' rel="noreferrer"><button
 					className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 dark:bg-slate-900"
 					type="button"
 					style={{ transition: "all .15s ease" }}
@@ -69,26 +69,26 @@ const Portfolio_Details = () => {
 
 			</div>
 
-			<div className='header-text'>
+			<div className='header-text' id="flixter">
 				<h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 ">
 					FLIXTER APP
 				</h3>
 			</div>
 			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3" id='flixterApp'>
-				<a href='https://github.com/cterogene/Flixter' target="_blank">
+				<a href='https://github.com/cterogene/Flixter' target="_blank" rel="noreferrer">
 					<img
 						className="rounded-xl object-cover w-full border shadow-lg"
 
 						src={flixterApp1}
 					/>
 				</a>
-				<a href='https://github.com/cterogene/Flixter' target="_blank">
+				<a href='https://github.com/cterogene/Flixter' target="_blank" rel="noreferrer">
 					<img
 						className="rounded-xl object-cover w-full border"
 						src={flixterApp2}
 					/>
 				</a>
-				<a href='https://github.com/cterogene/Flixter' target="_blank">
+				<a href='https://github.com/cterogene/Flixter' target="_blank" rel="noreferrer">
 					<img
 						className="rounded-xl object-cover w-full border"
 						src={flixterApp3}
@@ -102,7 +102,7 @@ const Portfolio_Details = () => {
 					I did use the movieDB api for all the movies information.
 				</p>
 
-				<a href='https://github.com/cterogene/Flixter' target='_blank' ><button
+				<a href='https://github.com/cterogene/Flixter' target='_blank' rel="noreferrer" ><button
 					className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 dark:bg-slate-900"
 					type="button"
 					style={{ transition: "all .15s ease" }}
@@ -113,13 +113,13 @@ const Portfolio_Details = () => {
 			</div>
 
 
-			<div className='header-text' >
+			<div className='header-text' id="garizim" >
 				<h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 ">
 					GARIZIM
 				</h3>
 			</div>
 			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3" >
-				<a href='http://garizim.somee.com/' target="_blank">
+				<a href='http://garizim.somee.com/' target="_blank" rel="noreferrer">
 					<img
 						className="rounded-xl object-cover w-full border shadow-lg"
 

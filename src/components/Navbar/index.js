@@ -1,5 +1,6 @@
 import './index.scss'
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
+
 import { useState } from "react";
 import Toggle from "../Toggle/Toggle"
 import { FaBars, FaTimes, FaSun, FaMoon } from "react-icons/fa";
@@ -25,23 +26,23 @@ const Navbar = () => {
 
     return (
         <div className={color ? "header header-bg dark:bg-slate-900 dark:text-slate-400" : "header"}>
-            <Link to="/">
+            <HashLink to="/#home">
                 <h1 className='name dark:text-gray-200'> CLAUDIO TEROGENE</h1>
 
-            </Link>
+            </HashLink>
 
             <Toggle />
 
             <ul className={click ? "nav-menu active dark:text-gray-200" :
                 "nav-menu"}>
                 <li className='dark:text-gray-200'>
-                    <Link to="/project">WORKS</Link>
+                    <HashLink to="/project#projects">WORKS</HashLink>
                 </li>
                 <li>
-                    <Link to="/about">RESUME</Link>
+                    <HashLink to="/about#resume">RESUME</HashLink>
                 </li>
                 <li>
-                    <Link to="/contact">CONTACT</Link>
+                    <HashLink to="/contact#contact">CONTACT</HashLink>
                 </li>
             </ul>
             <div className='hamburger' onClick={handleClick}>

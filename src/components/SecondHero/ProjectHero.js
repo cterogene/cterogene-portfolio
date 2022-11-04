@@ -6,7 +6,7 @@ const ProjectHero = ()=>{
 
     return (
         <div className='hero-img4'>
-            <div className='heading'>
+            <div className='heading' id="projects">
                 <h1> MY Projects </h1>
                 <div>
                     <a href={pdf} download className="btn dark:bg-slate-800 dark:text-gray-200"> Download CV </a>

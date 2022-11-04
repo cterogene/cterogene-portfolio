@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Resume = () => {
     return (
         <>
-            <main className="profile-page dark:bg-slate-900">
+            <main className="profile-page dark:bg-slate-900" id="resume">
                 <section className="relative block dark:bg-slate-900" style={{ height: "500px" }}>
                     <div
                         className="absolute top-0 w-full h-full bg-center bg-cover bg-indigo-700 dark:bg-slate-900">
