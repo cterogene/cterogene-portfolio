@@ -29,7 +29,7 @@ const Hero = () => {
                 <h1 className="dark:text-gray-300"> I'm a Software Developer based in Haiti </h1>
                 <div>
                     
-                    <Link to="/project" className="btn dark:bg-slate-800 dark:text-gray-200">My  Project</Link>
+                    <Link to="/project" className="btn dark:bg-slate-800 dark:text-gray-200">My Projects</Link>
                     <Link to="/contact" className="btn btn-light dark:text-gray-200 dark:bg-slate-800">Hire Me</Link>
                 </div>
             </div>

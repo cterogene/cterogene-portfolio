@@ -15,7 +15,7 @@ const Portfolio = () => {
 			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3 ">
 
 
-				<Link to='/project' >
+				<Link to='/project/#panierMobile' >
 					<div class="flex flex-col justify-center items-center m-1">
 						<img class="rounded-xl object-cover w-full border " src={panierMobile} alt="" />
 						<p className="mb-4 text-lg leading-relaxed text-indigo-700 m-10 dark:text-white">  MOBILE CHART </p>
@@ -46,7 +46,7 @@ const Portfolio = () => {
 
 
 
-				<Link to='/project' >
+				<Link to='/project/#garizim' >
 					<div class="flex flex-col justify-center items-center m-1">
 						<img class="rounded-xl object-cover w-full border" src={obensonWork} alt="" />
 						<p className="mb-4 text-lg leading-relaxed text-indigo-700 m-10 dark:text-white">GARIZIM</p>

@@ -20,12 +20,12 @@ const Portfolio_Details = () => {
 	return (
 		<>
 
-			<div className='header-text'>
+			<div className='header-text' id='panierMobile'>
 				<h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 ">
 					MOBILE CHART
 				</h3>
 			</div>
-			<div className="grid grid-cols-1 gap-1 lg:grid-cols-4 sm:grid-cols-2">
+			<div className="grid grid-cols-1 gap-1 lg:grid-cols-4 sm:grid-cols-2" >
 				<a href='https://github.com/cterogene/PanierMobile1.0' target="_blank">
 					<img
 						className="rounded-xl object-cover w-full border shadow-lg"
@@ -74,7 +74,7 @@ const Portfolio_Details = () => {
 					FLIXTER APP
 				</h3>
 			</div>
-			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3">
+			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3" id='flixterApp'>
 				<a href='https://github.com/cterogene/Flixter' target="_blank">
 					<img
 						className="rounded-xl object-cover w-full border shadow-lg"
@@ -113,12 +113,12 @@ const Portfolio_Details = () => {
 			</div>
 
 
-			<div className='header-text'>
+			<div className='header-text' >
 				<h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 ">
 					GARIZIM
 				</h3>
 			</div>
-			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3">
+			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3" >
 				<a href='http://garizim.somee.com/' target="_blank">
 					<img
 						className="rounded-xl object-cover w-full border shadow-lg"
