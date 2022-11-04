@@ -21,53 +21,53 @@ const Technologies = () => {
                     LANGUAGES  AND TECHNOLOGIES
                 </h3>
             </div>
-            <div className="grid grid-cols-4 gap-1 lg:grid-cols-8 sm:grid-cols-4  ">
+            <div className="grid grid-cols-4 gap-1 lg:grid-cols-8 sm:grid-cols-4">
 
 
                 <div class="flex flex-col justify-center items-center m-6">
-                    <img class="rounded-xl object-cover w-full border " src={html} alt="" />
+                    <img class="rounded-xl object-cover w-full border dark:bg-gray-200 " src={html} alt="" />
                     <p className="mb-4 text-lg leading-relaxed text-gray-700 m-5 dark:text-white"> HTML</p>
                 </div>
 
 
                 <div class="flex flex-col justify-center items-center m-6">
-                    <img class="rounded-xl object-cover w-full border " src={css} alt="" />
+                    <img class="rounded-xl object-cover w-full border dark:bg-gray-200" src={css} alt="" />
                     <p className="mb-4 text-lg leading-relaxed text-gray-700 m-5 dark:text-white"> CSS </p>
                 </div>
 
 
                 <div class="flex flex-col justify-center items-center m-6">
-                    <img class="rounded-xl object-cover w-full border" src={javaScript} alt="" />
+                    <img class="rounded-xl object-cover w-full border dark:bg-gray-200" src={javaScript} alt="" />
                     <p className="mb-4 text-lg leading-relaxed text-gray-700 m-5 dark:text-white">JAVASCRIPT</p>
                 </div>
 
 
                 <div class="flex flex-col justify-center items-center m-6">
-                    <img class="rounded-xl object-cover w-full border " src={git} alt="" />
+                    <img class="rounded-xl object-cover w-full border dark:bg-gray-200" src={git} alt="" />
                     <p className="mb-4 text-lg leading-relaxed text-gray-700 m-5 dark:text-white"> GIT</p>
                 </div>
 
 
                 <div class="flex flex-col justify-center items-center m-6">
-                    <img class="rounded-xl object-cover w-full border " src={react} alt="" />
+                    <img class="rounded-xl object-cover w-full border dark:bg-gray-200" src={react} alt="" />
                     <p className="mb-4 text-lg leading-relaxed text-gray-700 m-5 dark:text-white"> REACT </p>
                 </div>
 
 
                 <div class="flex flex-col justify-center items-center m-6">
-                    <img class="rounded-xl object-cover w-full border" src={figma} alt="" />
+                    <img class="rounded-xl object-cover w-full border dark:bg-gray-200" src={figma} alt="" />
                     <p className="mb-4 text-lg leading-relaxed text-gray-700 m-5 dark:text-white">FIGMA</p>
                 </div>
 
 
                 <div class="flex flex-col justify-center items-center m-6">
-                    <img class="rounded-xl object-cover w-full border " src={java} alt="" />
+                    <img class="rounded-xl object-cover w-full border dark:bg-gray-200" src={java} alt="" />
                     <p className="mb-4 text-lg leading-relaxed text-gray-700 m-5 dark:text-white"> JAVA </p>
                 </div>
 
 
                 <div class="flex flex-col justify-center items-center m-6">
-                    <img class="rounded-xl object-cover w-full border" src={android} alt="" />
+                    <img class="rounded-xl object-cover w-full border dark:bg-gray-200" src={android} alt="" />
                     <p className="mb-4 text-lg leading-relaxed text-gray-700 m-5 dark:text-white">ANDROID </p>
                 </div>
 
