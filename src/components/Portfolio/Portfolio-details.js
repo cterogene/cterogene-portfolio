@@ -13,6 +13,11 @@ import flixterApp1 from "../../assets/images/flixterApp1.png"
 import flixterApp2 from "../../assets/images/flixterApp2.png"
 import flixterApp3 from "../../assets/images/flixterApp3.png"
 
+import nft1 from "../../assets/images/nft1.png"
+import nft3 from "../../assets/images/nft2.png"
+import nft2 from "../../assets/images/nft3.png"
+
+
 
 import { Link } from "react-router-dom";
 
@@ -21,7 +26,7 @@ const Portfolio_Details = () => {
 		<>
 
 			<div className='header-text' id="mobile">
-				<h3  className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 " >
+				<h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 " >
 					MOBILE CHART
 				</h3>
 			</div>
@@ -29,7 +34,7 @@ const Portfolio_Details = () => {
 				<a href='https://github.com/cterogene/PanierMobile1.0' target="_blank" rel="noreferrer">
 					<img
 						className="rounded-xl object-cover w-full border shadow-lg"
-						
+
 						src={panierMobile1}
 					/>
 				</a>
@@ -155,6 +160,58 @@ const Portfolio_Details = () => {
 
 				> View Live Project
 				</button></a>
+
+			</div>
+
+			<div className='header-text' id="nft">
+				<h3 className="text-2xl sm:text-2xl text-primary-dark dark:text-primary-light mb-5 text-indigo-700 text-center m-10 ">
+					NFT APP
+				</h3>
+			</div>
+			<div className="grid grid-cols-1 gap-1 lg:grid-cols-3 sm:grid-cols-3" id='flixterApp'>
+				<a href='https://github.com/cterogene/React-Native-Nft-app' target="_blank" rel="noreferrer">
+					<img
+						className="rounded-xl object-cover w-full border shadow-lg"
+
+						src={nft1}
+					/>
+				</a>
+				<a href='https://github.com/cterogene/React-Native-Nft-app' target="_blank" rel="noreferrer">
+					<img
+						className="rounded-xl object-cover w-full border"
+						src={nft2}
+					/>
+				</a>
+				<a href='https://github.com/cterogene/React-Native-Nft-app' target="_blank" rel="noreferrer">
+					<img
+						className="rounded-xl object-cover w-full border"
+						src={nft3}
+					/>
+				</a>
+			</div>
+
+			<div className='details' class="flex flex-col justify-center items-center m-5">
+				<p className='mb-4 text-lg leading-relaxed text-gray-800 m-5 text-center dark:text-gray-200'>
+					NFT app is build using A cross platform technology, React Native. You can search for NFT, details of each one and much more.
+					It's build using JavaScript and has two main Screens. One for a list of all the NFT's and the other for a  detailed view. 
+				</p>
+				<div className='flex flex-row justify-center items-center m-5'>
+					<a href='https://github.com/cterogene/React-Native-Nft-app' target='_blank' rel="noreferrer" ><button
+						className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 dark:bg-slate-900"
+						type="button"
+						style={{ transition: "all .15s ease" }}
+
+					> View Project on Github
+					</button ></a>
+					<a href='https://expo.dev/@cterogene/nft-native?serviceType=classic&distribution=expo-go' target='_blank' rel="noreferrer" >
+						<button
+						className="bg-indigo-700 active:bg-indigo-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-8 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 dark:bg-slate-900 p-5"
+						type="button"
+						style={{ transition: "all .15s ease" }}
+
+					> View project on Expo Store
+					</button></a>
+				</div>
 
 			</div>
 

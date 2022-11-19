@@ -43,7 +43,7 @@ const Portfolio = () => {
 							style={{ transition: "all .15s ease" }}>See More</button>
 					</div>
 				</HashLink>
-				<HashLink to='' smooth>
+				<HashLink to='/project#nft' >
 					<div class="flex flex-col justify-center items-center m-1">
 						<img class="rounded-xl object-cover w-full border " src={NFTapp} alt="" />
 						<p className="mb-4 text-lg leading-relaxed text-indigo-700 m-10 dark:text-white"> NFT APP </p>
