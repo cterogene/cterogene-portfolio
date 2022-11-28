@@ -61,7 +61,7 @@ const Portfolio_Details = () => {
 			<div className='details' class="flex flex-col justify-center items-center m-5">
 				<p className='mb-4 text-lg leading-relaxed text-gray-800 m-5 text-center dark:text-gray-200 '>
 					Mobile chart is a collaboration android app that lets users add product, sell product and buy product within the app with secure connections.
-					For now the project is on the development stage and is ready to view on Github.
+					For now the project is on the development stage and is available to view on Github.
 				</p>
 
 				<a href='https://github.com/cterogene/PanierMobile1.0' target='_blank' rel="noreferrer"><button
@@ -149,7 +149,7 @@ const Portfolio_Details = () => {
 
 			<div className='details' class="flex flex-col justify-center items-center m-5">
 				<p className='mb-4 text-lg leading-relaxed text-gray-800 m-5 text-center dark:text-gray-200'>
-					Garizim is a personal portfolio made with Asp.net and bootstrap. user can see detailed project with all of the most recent work. It is being hosted on <a className='mb-4 text-lg leading-relaxed text-gray-800 m-5 dark:text-gray-300' href="" target="_blank">somee</a>
+					Garizim is a personal portfolio made with Asp.net and bootstrap. User can see detailed project with all of the most recent work. It is being hosted on <a className='mb-4 text-lg leading-relaxed text-gray-800 m-5 dark:text-gray-300' href="" target="_blank">somee</a>
 
 				</p>
 
@@ -193,7 +193,7 @@ const Portfolio_Details = () => {
 			<div className='details' class="flex flex-col justify-center items-center m-5">
 				<p className='mb-4 text-lg leading-relaxed text-gray-800 m-5 text-center dark:text-gray-200'>
 					NFT app is build using A cross platform technology, React Native. You can search for NFT, details of each one and much more.
-					It's build using JavaScript and has two main Screens. One for a list of all the NFT's and the other for a  detailed view. 
+					It's build using JavaScript (React Native) and has two main Screens. One for a list of all the NFT's and the other for a  detailed view. 
 				</p>
 				<div className='flex flex-row justify-center items-center m-5'>
 					<a href='https://github.com/cterogene/React-Native-Nft-app' target='_blank' rel="noreferrer" ><button
@@ -209,7 +209,7 @@ const Portfolio_Details = () => {
 						type="button"
 						style={{ transition: "all .15s ease" }}
 
-					> View project on Expo Store
+					> Download from Expo Store
 					</button></a>
 				</div>
 
